@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulador de Notas Escolares</title>
+  <link rel="stylesheet" href="ex20.css" />
+  <link rel="stylesheet" href="botão.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="button-container">
+      <a href="../index.html" class="btn">Voltar para a Página Principal</a>
+    </div>
+    <h1>📚 Simulador de Notas</h1>
+    <div class="card">
+      <input type="number" id="nota1" placeholder="Nota 1" />
+      <input type="number" id="nota2" placeholder="Nota 2" />
+      <input type="number" id="nota3" placeholder="Nota 3" />
+      <input type="number" id="nota4" placeholder="Nota 4" />
+      <button onclick="calcularMedia()">Calcular Média</button>
+      <div id="resultado"></div>
+    </div>
+  </div>
+  <script src="ex20.js"></script>
+</body>
+</html>

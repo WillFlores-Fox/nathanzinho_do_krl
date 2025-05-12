@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Verificador de Idade</title>
+  <link rel="stylesheet" href="ex5.css" />
+  <link rel="stylesheet" href="botão.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="button-container">
+      <a href="../index.html" class="btn">Voltar para a Página Principal</a>
+    </div>
+    <h1>Verificador de Idade</h1>
+    <div class="card">
+      <label for="anoNascimento">Ano de Nascimento:</label>
+      <input type="number" id="anoNascimento" placeholder="Ex: 2000" />
+
+      <button onclick="verificarIdade()">Verificar Idade</button>
+      <div id="resultado"></div>
+    </div>
+  </div>
+  <script src="ex5.js"></script>
+</body>
+</html>

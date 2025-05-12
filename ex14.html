@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulador de Sorteio</title>
+  <link rel="stylesheet" href="ex14.css" />
+  <link rel="stylesheet" href="botão.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="button-container">
+      <a href="../index.html" class="btn">Voltar para a Página Principal</a>
+    </div>
+    <h1>🎲 Sorteio Aleatório</h1>
+    <div class="card">
+      <input type="number" id="min" placeholder="Valor mínimo" />
+      <input type="number" id="max" placeholder="Valor máximo" />
+      <button onclick="sortear()">Sortear</button>
+      <div id="resultado"></div>
+    </div>
+  </div>
+  <script src="ex14.js"></script>
+</body>
+</html>
